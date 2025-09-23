@@ -1,19 +1,16 @@
 /* NAVBAR */
 .nav {
-    /* position: block; */
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.625rem;
     backdrop-filter: blur(16px);
+    transition: 200ms;
     z-index: 1;
 }
 
-.showing {
-    position: sticky;
-    top: 0;
-    transition: top 500ms;
-}
 
 .nav-items {
     display: flex;

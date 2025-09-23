@@ -11,11 +11,10 @@ window.onscroll = function () {
 
     if (currentScrollPos < prevScrollpos) {
         // scrolling down
-        document.querySelector(".nav").classList.add("showing");
+        document.querySelector(".nav").style.top = "0";
     } else {
         // scrolling up
-        // document.querySelector(".nav").style.display = "none";
-        document.querySelector(".nav").classList.remove("showing");
+        document.querySelector(".nav").style.top = "-110px";
     }
     prevScrollpos = currentScrollPos;
 }
