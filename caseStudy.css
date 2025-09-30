@@ -251,10 +251,12 @@ figure {
 
 .linkedin-btn:hover {
     background-color: #095077;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px 0px;
     transition: 200ms;
 }
 
 .email-btn:hover {
     background-color: rgb(138, 24, 30);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px 0px;
     transition: 200ms;
 }
