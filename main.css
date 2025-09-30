@@ -1,0 +1,29 @@
+:root {
+    /* typography */
+    --heading-primary-color: #222222;
+    --heading-secondary-color: #7e7e7e;
+    --paragraph-primary-color: #3b3b3b;
+
+    --font-family: "Inter", sans-serif;
+
+    --h1-font-size: 3rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.5rem;
+    --callout-heading-font-size: 0.875rem;
+    --callout-label-font-size: 1.0625rem;
+    --paragraph-font-size: 1.25rem;
+
+    --nav-font-weight: 600;
+    --h1-font-weight: 600;
+    --h2-font-weight: 600;
+    --h3-font-weight: 600;
+    --callout-label-font-weight: 600;
+    --callout-heading-font-weight: 300;
+    --paragraph-font-weight: 400;
+
+    --h1-line-height: 1.2em;
+    --h2-line-height: 1.4em;
+    --h3-line-height: 1.4em;
+    --callout-heading-line-height: 1.4em;
+    --paragraph-line-height: 1.6em;
+}

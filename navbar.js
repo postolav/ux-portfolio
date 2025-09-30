@@ -7,14 +7,15 @@ var prevScrollpos = 0
 // console.log("Prev scroll: " + prevScrollpos);
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
+    var element = document.querySelector(".nav");
     // console.log("Current scroll: " + currentScrollPos);
 
     if (currentScrollPos < prevScrollpos) {
         // scrolling down
-        document.querySelector(".nav").style.top = "0";
+        element.style.top = "0";
     } else {
         // scrolling up
-        document.querySelector(".nav").style.top = "-110px";
+        element.style.top = "-110px";
     }
     prevScrollpos = currentScrollPos;
 }

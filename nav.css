@@ -7,9 +7,13 @@
     align-items: center;
     padding: 1.625rem;
     backdrop-filter: blur(16px);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px 0px; */
     transition: 200ms;
     z-index: 1;
+
+    /* mix-blend-mode: difference; */
 }
+
 
 
 .nav-items {
@@ -28,9 +32,8 @@ nav>ul>li:hover {
     text-decoration: underline;
 }
 
-.nav-items,
 .nav-logo {
-    justify-content: center;
+    width: 2.5rem;
 }
 
 .nav-link,
