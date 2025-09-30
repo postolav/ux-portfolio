@@ -21,7 +21,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 1.625rem;
+    gap: 1rem;
 }
 
 nav>ul>li {
@@ -42,4 +42,27 @@ nav>ul>li:hover {
     color: var(--paragraph-primary-color);
     font-weight: var(--nav-font-weight);
     font-style: normal;
+}
+
+/* ICONS */
+i,
+.icon::before {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: 1px;
+}
+
+.btn {
+    text-decoration: none;
+    /* background-color: #222; */
+    color: #222;
+    padding: 10px 12px;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px 0px;
+    transition: 200ms;
 }
