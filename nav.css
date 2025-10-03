@@ -45,15 +45,7 @@ nav>ul>li:hover {
 }
 
 /* ICONS */
-i,
-.icon::before {
-    width: 1.5em;
-    height: 1.5em;
-    position: relative;
-    top: 1px;
-}
-
-.btn {
+.icon-btn {
     text-decoration: none;
     /* background-color: #222; */
     color: #222;
@@ -61,8 +53,19 @@ i,
     border-radius: 12px;
 }
 
-.btn:hover {
+.icon-btn:hover {
     background-color: #eee;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px 0px;
     transition: 200ms;
+}
+
+.icon-frame {
+    position: relative;
+    top: 2px;
+}
+
+i,
+.icon::before {
+    width: 1.5em;
+    height: 1.5em;
 }
