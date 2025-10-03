@@ -45,28 +45,24 @@ nav>ul>li:hover {
 }
 
 /* ICONS */
-.icon-btn {
+i,
+.icon::before {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: 1px;
+}
+
+.btn {
     text-decoration: none;
+    /* background-color: #222; */
     color: #222;
     padding: 10px 12px;
     border-radius: 12px;
 }
 
-
-.icon-btn:hover {
+.btn:hover {
     background-color: #eee;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px 0px;
     transition: 200ms;
-}
-
-.icon-frame {
-    position: relative;
-    top: 2px;
-}
-
-i,
-.icon::before {
-    width: 1.5em;
-    height: 1.5em;
-    /* need to remove this from the .icon class */
 }
