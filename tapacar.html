@@ -351,10 +351,15 @@
             </p>
         </section>
 
+
         <picture>
-            <!-- TODO include alternative formats when WebP is incompatible -->
-            <img class="splash-img" src="media/tapacar/app.png" loading="lazy"
-                alt="Presentation of app prototype with refined interface">
+            <source media="(width < 450px)" srcset="media\tapacar\450px_protoShow.png">
+            <source media="(width < 750px) and (width >= 450px)" srcset="media\tapacar\750px_protoShow.png">
+            <source media="(width < 1024px) and (width >= 750px)" srcset="media\tapacar\1440px_protoShow.png">
+            <!-- <source media="(width < 1440px) and (width >= 1024 px)" srcset="media\tapacar\1440px_protoShow.png"> -->
+            <source media="(width >= 1024px)" srcset="media\tapacar\2560px_protoShow.png">
+            <img class="splash-img" loading="lazy" src="media\tapacar\1440px_protoShow.png"
+                alt="Illustration of prototype with refined interface">
         </picture>
 
         <section>
